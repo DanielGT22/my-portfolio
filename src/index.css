@@ -1,0 +1,3 @@
+.form-control::input-placeholder {
+    color: red;
+  }

@@ -1,17 +1,34 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Container id="about">
+    <Container id="about " className='py-4'>
       <Row className="align-items-center">
-        <Col md={6}>
-          <Image src="your-photo-url.jpg" roundedCircle className="img-fluid mb-4" />
-        </Col>
-        <Col md={6}>
-          <h2>About Me</h2>
-          <p className="lead">I’m a [Your Profession] with experience in [Your Skills]. I love working on [Your Interests] and am always eager to learn more.</p>
-          <p>[A few more details about your background, experience, and aspirations.]</p>
+      
+        <Col xs={12} md={8}>
+          <h1>DANIEL GRUJIC</h1>
+          <hr></hr>
+          <div className='p-1'>
+          <Row>
+          <Col xs={6} md={3} className='p-1'>
+          <Button className='w-100   h-100 bg-dark border border-2 border-white ' style={{}}>Title</Button>
+          </Col>
+          <Col xs={6} md={3} className='p-1'> 
+          <Button className='w-100   h-100 bg-dark border border-2 border-white ' style={{}}>Projects</Button>
+          </Col>
+          <Col xs={6} md={3} className='p-1'>
+          <Button className='w-100   h-100 bg-dark border border-2 border-white ' style={{}}>About Me</Button>
+          </Col>
+          <Col xs={6} md={3} className='p-1'>
+           <Button className='w-100   h-100 bg-dark border border-2 border-white ' style={{}}>Contact</Button>
+          </Col>
+          </Row>
+          </div>
+           </Col>
+        <Col xs={12} md={4}>
+          <Image src='' roundedCircle className="" />
+          <p className='text-danger'>A</p>
         </Col>
       </Row>
     </Container>
