@@ -33,6 +33,34 @@ const Projects = () => {
             </Card.Body>
           </Card>
         </Col>
+        <Col xs={12} md={4}>
+          <Card className="mb-4  bg-dark text-white border-2 border-white">
+            <Card.Img variant="top" src="project-image-url-3.jpg" />
+            <Card.Body>
+              <Card.Title>Project 3</Card.Title>
+              <Card.Text>A brief description of Project 4.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col xs={12} md={4}>
+          <Card className="mb-4  bg-dark text-white border-2 border-white">
+            <Card.Img variant="top" src="project-image-url-3.jpg" />
+            <Card.Body>
+              <Card.Title>Project 3</Card.Title>
+              <Card.Text>A brief description of Project 5.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col xs={12} md={4}>
+          <Card className="mb-4  bg-dark text-white border-2 border-white">
+            <Card.Img variant="top" src="project-image-url-3.jpg" />
+            <Card.Body>
+              <Card.Title>Project 3</Card.Title>
+              <Card.Text>A brief description of Project 6.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </Container>
   );
