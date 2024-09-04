@@ -89,7 +89,7 @@ const About = () => {
           </Col>
           <Col xs={12} md={4}>
             <Image src="" roundedCircle />
-            <p className="text-danger">A</p>
+            <LoremIpsum p={1} />
           </Col>
         </Row>
       </Container>

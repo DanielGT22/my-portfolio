@@ -1,0 +1,10 @@
+// Import Bootstrap variables first
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Override the white color variable
+$white: #eaf0ce;
+$Button: white;
+
+// Import the rest of Bootstrap's styles
+@import "~bootstrap/scss/bootstrap";

@@ -4,45 +4,36 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 const Contact = () => {
   return (
     <Container id="contact">
-      <h2 className="text-start mb-4">Contact Me</h2>
-
+      <h1 className="text-center mb-4">Contact Me</h1>
+      <hr className="my-5" />
       <Form className=" custom-placeholder">
-        <Row className="">
-          <Col md={6}>
-            <Row className="">
-              <Col md={12} className="mb-2">
-                <Form.Group controlId="formName" className="">
-                  <Form.Label>Your Name</Form.Label>
-                  <Form.Control
-                    type="text"
-                    placeholder="Enter your name"
-                    className="bg-dark border-2  "
-                  />
-                </Form.Group>
-              </Col>
-            </Row>
-            <Row className="">
-              <Col md={12} className="mb-1">
-                <Form.Group
-                  controlId="formEmail"
-                  className="bg-dark border-2 border-white"
-                >
-                  <Form.Label>Your Email</Form.Label>
-                  <Form.Control
-                    type="text"
-                    placeholder="Enter your name"
-                    className="bg-dark border-2  "
-                  />
-                </Form.Group>
-              </Col>
-            </Row>
+        <Row className="p-4 m-auto">
+          <Col xs={0} md={2}></Col>
+          <Col md={8} className="mb-2">
+            <Form.Group controlId="formName" className="my-2">
+              <Form.Control
+                type="text"
+                placeholder="Sender"
+                className="bg-white border-2  "
+              />
+            </Form.Group>
           </Col>
-          <Col md={6}>
-            <Form.Group
-              controlId="formMessage"
-              className="bg-dark border-2 border-white"
-            >
-              <Form.Label>Your Message</Form.Label>
+          <Col xs={0} md={2}></Col>
+
+          <Col xs={0} md={2}></Col>
+          <Col md={8} className="mb-1">
+            <Form.Group controlId="formEmail" className="my-2">
+              <Form.Control
+                type="text"
+                placeholder="E-Mail"
+                className="bg-white border-2  "
+              />
+            </Form.Group>
+          </Col>
+          <Col xs={0} md={2}></Col>
+          <Col xs={0} md={2}></Col>
+          <Col xs={12} md={8}>
+            <Form.Group controlId="formMessage" className=" my-2">
               <Form.Control
                 as="textarea"
                 rows={5}
@@ -51,17 +42,13 @@ const Contact = () => {
               />
             </Form.Group>
           </Col>
+          <Col xs={0} md={2}></Col>
         </Row>
-        <div className="d-flex justify-content-center">
-          <Button
-            variant="dark"
-            type="submit"
-            className="mt-3 border-2 border-white w-25  "
-          >
+        <div className="d-flex justify-content-center pb-5">
+          <Button variant="light" type="submit">
             Submit
           </Button>
         </div>
-        div
       </Form>
     </Container>
   );
