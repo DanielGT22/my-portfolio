@@ -6,6 +6,8 @@
 #about .java-icon,
 #about .database-icon,
 #about .docker-icon {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
   width: 5rem;
   height: 5rem;
 }
@@ -13,16 +15,13 @@
 @keyframes showIcons {
   0% {
     opacity: 0;
-    visibility: hidden;
   }
 
   50% {
     opacity: 1;
-    visibility: visible;
   }
   100% {
     opacity: 0;
-    visibility: hidden;
   }
 }
 
@@ -45,7 +44,6 @@
   animation: showIcons 2s infinite;
   animation-delay: 6s;
 }
-
 #about .figma-icon {
   animation: showIcons 2s infinite;
   animation-delay: 8s;
