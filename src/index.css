@@ -1,0 +1,100 @@
+#about .figma-icon,
+#about .bootstrap-icon,
+#about .react-icon,
+#about .js-icon,
+#about .html-icon,
+#about .java-icon,
+#about .database-icon,
+#about .docker-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+@keyframes showIcons {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  50% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#about .bootstrap-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 0s;
+}
+
+#about .react-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 2s;
+}
+
+#about .js-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 4s;
+}
+
+#about .html-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 6s;
+}
+
+#about .figma-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 8s;
+}
+
+#about .java-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 10s;
+}
+
+#about .database-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 12s;
+}
+
+#about .docker-icon {
+  animation: showIcons 2s infinite;
+  animation-delay: 14s;
+}
+
+/* Optional: Add hover effects for icons */
+#about .bootstrap-icon:hover svg path {
+  fill: #563d7c;
+}
+
+#about .react-icon:hover svg path {
+  fill: #8fe1f8;
+}
+
+#about .js-icon:hover svg path {
+  fill: #8a7300;
+}
+
+#about .html-icon:hover svg path {
+  fill: #850303;
+}
+
+#about .figma-icon:hover svg path {
+  fill: #de38f8;
+}
+
+#about .java-icon:hover svg path {
+  fill: #e3715c;
+}
+
+#about .database-icon:hover svg path {
+  fill: #15d3bd;
+}
+
+#about .docker-icon:hover svg path {
+  fill: #fafafa;
+}
