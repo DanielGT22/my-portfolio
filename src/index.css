@@ -6,12 +6,12 @@
 #about .java-icon,
 #about .database-icon,
 #about .docker-icon {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  /* opacity: 0;
+  transition: opacity 1s ease-in-out; */
   width: 5rem;
   height: 5rem;
 }
-
+/* 
 @keyframes showIcons {
   0% {
     opacity: 0;
@@ -22,12 +22,7 @@
   }
   100% {
     opacity: 0;
-  }
-}
-
-#about .bootstrap-icon {
-  animation: showIcons 2s infinite;
-  animation-delay: 0s;
+  }ation-delay: 0s;
 }
 
 #about .react-icon {
@@ -63,6 +58,11 @@
   animation: showIcons 2s infinite;
   animation-delay: 14s;
 }
+}
+
+#about .bootstrap-icon {
+  animation: showIcons 2s infinite;
+  anim */
 
 /* Optional: Add hover effects for icons */
 #about .bootstrap-icon:hover svg path {
