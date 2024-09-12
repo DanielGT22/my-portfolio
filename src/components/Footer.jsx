@@ -5,7 +5,7 @@ const Footer = () => {
       <h4 className="text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cumque
         impedit doloremque rerum, libero fuga voluptatem magni sed incidunt vero
-        architecto beatae voluptatibus eveniet rem itaque maiores excepturi aut
+        architecto beatae voluptatibus eveniet rem itaque maiores excepturi auti
         nam?
       </h4>
     </div>
