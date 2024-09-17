@@ -6,7 +6,7 @@ const Footer = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cumque
         impedit doloremque rerum, libero fuga voluptatem magni sed incidunt vero
         architecto beatae voluptatibus eveniet rem itaque maiores excepturi auti
-        nam?
+        nami?
       </h4>
     </div>
   );
